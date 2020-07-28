@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(24, 23, 23);
+    display: flex;
+    justify-content: center;
+    height: 940px;
+    margin: 0px; 
+    font-size: 19px;
+    font-family: 'Nunito', sans-serif;
+}
+@font-face{
+    font-family:'Nunito', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Nunito&display=swap)
+}
+
+.outer-border {
+    background-color: black;
+    width: 750px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+.post-content {
+    background-color: white;
+    width: 565px;
+    height: 780px;
+   
+
+.post-header {
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    margin-bottom: 0px;
+}
+
+.post-header-left {
+    display: flex;
+    align-items: center;
+}
+.post-header-left p{
+    margin: 10px;
+}
+
+.post-header-right{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+ img{
+    width: 565px;
+    height: 420px;
+}
+.icon-bar{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.post-footer{
+    margin: 10px;
+}
+   
+    
+
+
+
